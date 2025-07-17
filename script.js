@@ -1,4 +1,3 @@
-// script.js
-document.addEventListener("DOMContentLoaded", () => {
-  alert("Welcome to my portfolio!");
-});
+function scrollToContent() {
+    document.getElementById('welcome').scrollIntoView({ behavior: 'smooth' });
+}
